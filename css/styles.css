@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100vw;
+}
+
+.night {
+  width: 100vw;
+  background-color: #141414;
+}
+
+.starlayer {
+  position: absolute;
+  z-index: -1;
+  background-image: url("../pics/Stars\ Shooting\ Star\ GIF.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100%;
+}
+
+.backlayer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  z-index: 0;
+  width: 100vw;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.circule {
+  width: 176px;
+  height: 176px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  background-color: #5a0dbd;
+}
+
+.flex-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.pixelized {
+  color: white;
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-size: 3em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.normal {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutme {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.header {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.header-light {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.paragrapgh {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 160%;
+}
+
+.paragrapgh-light {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 160%;
+}
+
+.grey-section {
+  background-color: #ebebeb;
+  margin-top: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 5px;
+  flex: 1;
+  max-width: 5px;
+  min-width: 5px;
+}
+
+.square {
+  width: 155px;
+  height: 234px;
+  border: 1px solid #000;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #fff;
+}
+
+#left {
+  margin-right: 250px;
+}
+
+.skills {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 120px;
+  margin-bottom: 20px;
+}
+
+.skill-box {
+  display: flex;
+  flex-flow: column;
+  gap: 24px;
+}
+
+.skill-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.skill-items {
+  display: flex;
+  width: 43.99px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 25.2px */
+}
+
+.techskill-image {
+  display: flex;
+  justify-content: center;
+  width: 43.986px;
+}
+
+.softskill-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px 20px;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.softskill-wrapper .skill-items {
+  width: 91px;
+}
+
+.lang {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 180%; /* 28.8px */
+  word-spacing: 10px;
+}
+
+.footer {
+  display: flex;
+  /* width: 1138px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+
+.contact-col {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  transition: 0.2s linear;
+}
